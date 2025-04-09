@@ -1,16 +1,15 @@
 Package: geneInfo
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Get gene information
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Jeason", "Zhao",
+      email = "2055469819@qq.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Quick get gene info from Bioconductor OrganismDb.
 License: CC0
 Encoding: UTF-8
 LazyData: true
