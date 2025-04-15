@@ -15,7 +15,7 @@
 get_gene_info <- function(symbols, species = c('Hs', 'Mm')) {
   # see https://davetang.org/muse/2013/12/16/bioconductor-annotation-packages/
   species <- match.arg(species)
-  columns = c('ENTREZID', 'GENENAME', 'GENETYPE')
+  columns = c('ENTREZID', 'ENSEMBL', 'GENENAME', 'GENETYPE')
   if (species == 'Hs') {
     orgdb <- org.Hs.eg.db::org.Hs.eg.db
     txdb <- TxDb.Hsapiens.UCSC.hg19.knownGene::TxDb.Hsapiens.UCSC.hg19.knownGene
