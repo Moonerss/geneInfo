@@ -19,8 +19,8 @@ Only consider the gene on chr 1-22, chrX and chrY
 }
 \examples{
 \dontrun{
-totalExons('TP53')
-totalExons('Pzp', species = 'Mm')
+geneLength('TP53')
+geneLength('Pzp', species = 'Mm')
 }
 
 }

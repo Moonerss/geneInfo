@@ -15,6 +15,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     AnnotationDbi,
+    biomaRt,
     dplyr,
     GO.db,
     Homo.sapiens,
